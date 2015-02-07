@@ -31,6 +31,7 @@ h1 {
     padding: 1% 2%;
     float: left;
     background-color: #FC4343;
+    border-radius: 2px;
 }
 .navigation li:hover {
     cursor: pointer;
