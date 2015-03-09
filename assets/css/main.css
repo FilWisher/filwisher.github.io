@@ -1,62 +1,72 @@
 body {
-    background-color: #250905;
-    font-family: "Lato", sans-serif; 
-    font-weight: 900;
-}
+  background-color: #000084;
+  font-family: DOS, Terminal, Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-weight: 900;
+  margin: 1em; }
 
-p, a, h3 {
-    font-family: "Lato", sans-serif; 
-    font-weight: 400;
-    margin-top: 0.5em;
-    margin-bottom: 0em;
-}
+p, h3 {
+  font-weight: 400;
+  margin-top: 0.5em;
+  margin-bottom: 0em; }
+
+a {
+  font-weight: 800; }
+
+li {
+  list-style: none; }
+
+.bit-25 {
+  width: 25%; }
+
+.bit-75 {
+  width: 75%; }
 
 h1 {
-    color: white;
-    letter-spacing: 0.01em;
-    font-size: 5em;
-    margin-bottom: 0em;
-}
+  color: white;
+  letter-spacing: 0.01em;
+  font-size: 4em;
+  margin-bottom: 0em; }
 
-.navigation ul {
-    padding: 0;
-    margin: 0;
-    margin-top: 1%;
-    margin-left: 2%;
-    list-style-type: none;
-}
-.navigation li {
-    display: inline;
-    margin-right: 2.5%;
-    padding: 1% 2%;
-    float: left;
-    background-color: #FC4343;
-    border-radius: 2px;
-}
-.navigation li:hover {
-    cursor: pointer;
-    background-color: #D62222;
-}
+.dialog-outer {
+  background-color: #888888;
+  padding: 0.2em;
+  box-shadow: #111 0.75em 1em; }
 
-.title {
-    background-color: #321E15;
+.dialog-inner {
+  background-color: #000000;
+  margin: 1em;
+  padding: 1em;
+  position: relative; }
+
+#tagline {
+  margin-left: 1em;
+  padding: 1.5em; }
+  #tagline a {
     text-align: center;
-    margin-left: 2%;
-    margin-top: 2%;
-    padding-top: 0.5%;
-    padding-bottom: 4%;
-    width: 40%;
-    position: relative;
-}
+    color: white; }
+    #tagline a:hover {
+      color: blue; }
 
-.textbox {
-    letter-spacing: 0.02em;
-}
+.buttons {
+  margin-left: 1em; }
 
-.navigation {
-   background-color: white;
-   text-align: justify;
-   font-size: 0.1px;
-   min-width: 40%;
-}
+.button {
+  margin-top: 2em;
+  text-align: center;
+  padding: 0.5em; }
 
+.button:hover {
+  background-color: black;
+  color: white; }
+
+.center {
+  text-align: center; }
+
+.chunky {
+  background-color: black;
+  border-color: black;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*# sourceMappingURL=main.css.map */
