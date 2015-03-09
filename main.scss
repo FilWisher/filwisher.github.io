@@ -5,13 +5,20 @@ body {
     margin: 1em;
 }
 
+@font-face {
+    font-family: "DOS";
+    src: url("../fonts/dosvga437.ttf") format("truetype");
+}
+
 p, h3 {
+    font-size: 1.3em;
     font-weight: 400;
     margin-top: 0.5em;
     margin-bottom: 0em;
 }
 
 a {
+    font-size: 1.3em;
     font-weight: 800;
 }
 
