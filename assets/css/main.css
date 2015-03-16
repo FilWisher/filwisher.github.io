@@ -13,9 +13,16 @@ p, h3 {
   margin-top: 0.5em;
   margin-bottom: 0em; }
 
+pre {
+  color: white; }
+
 a {
   font-size: 1.3em;
-  font-weight: 800; }
+  font-weight: 800;
+  color: black;
+  text-decoration: none; }
+  a:visited {
+    color: black; }
 
 li {
   list-style: none; }
@@ -118,5 +125,19 @@ h1 {
     opacity: 1; }
   100% {
     opacity: 0; } }
+#content {
+  max-height: 30em;
+  overflow-y: hidden;
+  margin-top: 3em; }
+
+.content-section {
+  height: 30em;
+  width: 100%;
+  padding: 1em; }
+
+.project-icon {
+  margin-top: 2em;
+  margin-left: 20%;
+  a-width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
