@@ -137,7 +137,8 @@ h1 {
 
 .project-icon {
   margin-top: 2em;
-  margin-left: 20%;
-  a-width: 100%; }
+  margin-left: auto;
+  margin-right: auto;
+  width: 7em; }
 
 /*# sourceMappingURL=main.css.map */
