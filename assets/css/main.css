@@ -47,7 +47,7 @@ h3 {
 .content {
   width: 70%;
   margin-left: 15%; 
-  height: 100%;
+  uheight: 100%;
   position: fixed;
   z-index: -1;
 }
@@ -62,7 +62,11 @@ a.contact {
   text-decoration: none;
   color: white;
 }
-
+h1.bullet {
+  color: black;
+  float: left;
+  margin-right: 1em;
+}
 .item {
   margin: 1.5em;
   padding-bottom: 1.5em;
