@@ -35,7 +35,10 @@ h1 {
   letter-spacing: 0.01em;
   font-size: 3.5em;
   margin-bottom: 0em; }
-
+h2.section-title {
+  border-bottom: 1px solid #888;
+  letter-spacing: 0.05em;
+}
 h3 {
   color: #FF0B0B;
   font-family: DOS;
@@ -53,32 +56,40 @@ img.filwisher {
 
 .content {
   width: 70%;
-  margin-left: 15%; 
-  uheight: 100%;
+  margin-left: 15%;
+  margin-top: 1em;
   position: fixed;
   z-index: -1;
 }
 
 div.contact {
-  margin-left: 1em;
-  margin-top: 1em;
-  color: white;
   text-align: center;
+  padding: 1em;
 }
 a.contact {
   text-decoration: none;
-  color: white;
+  color: black;
+}
+a.contact:hover {
+  color: #EE0000
+}
+a.project {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: black;
+}
+a.project:hover {
+  color: #EE0000
 }
 h1.bullet {
   color: black;
   float: left;
   margin-right: 1em;
 }
-.item {
+div.item {
   margin: 1.5em;
   padding-bottom: 1.5em;
-  
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #888;
 }
 
 .top {
