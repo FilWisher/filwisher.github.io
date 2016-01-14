@@ -50,16 +50,14 @@ h3 {
 img.filwisher {
   float: left;
   height: 3em;
-  widtih: 100%;
   margin: 0;
 }
 
 .content {
-  width: 70%;
-  margin-left: 15%;
-  margin-top: 1em;
+  width: 100%;
   position: fixed;
   z-index: -1;
+  background-color: black;
 }
 
 div.contact {
@@ -190,10 +188,43 @@ div.item {
   100% {
     opacity: 0; } }
 
-.project-icon {
-  margin-top: 2em;
-  margin-left: auto;
-  margin-right: auto;
-  width: 7em; }
+div.content p {
+  font-family: 'Inconsolata', monospace;
+  font-weight: bold;
+  line-height: 1em;
+  height: 1em;
+  margin: 0 0.5em;
+  float: left;
+}
+    
+p.line-content {
+  color: white;
+}
+
+p.line-num {
+  color: yellow; 
+  float: left;
+  clear: left;
+  text-align: right;
+  width: 1em;
+}
+
+p.status-line {
+  clear: both;
+  padding-left: 2em;
+  float: left;
+}
+
+p.status-left {
+  margin: 0;
+  color: white;
+  float: left;
+}
+p.status-right {
+  padding-left: 5em;
+  float: left;
+  color: white;
+}
+
 
 /*# sourceMappingURL=main.css.map */
