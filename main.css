@@ -14,7 +14,7 @@ p {
 }
 
 a {
-  color: #FF1c1c;
+  color: #FF1C1C;
 }
 
 div.banner {
@@ -44,7 +44,7 @@ div.terminal-outer div.terminal-inner img {
 }
 
 div.content {
-  height: 50em;
+  padding: 0.5em;
   float: left;
 }
 
@@ -56,7 +56,7 @@ div.content.left {
 div.content.right {
   width: 40%;
   margin: 0;
-  padding: 1em;
+  padding: 0 1em 1em 1em;
 }
 
 div.content .section-heading {
