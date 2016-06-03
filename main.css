@@ -5,12 +5,16 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  background-color: #FFF5F5;
+  background-color: #FFFFEA;
   font-family: Inconsolata, monospace;
 }
 
+h2 {
+  color: #373732;
+}
+
 p {
-  color: #333;
+  color: #575750;
 }
 
 a {
@@ -19,9 +23,10 @@ a {
 
 div.banner {
   width: 100%;
-  background-color: #FF1C1C;
+  background-color: #EAFFFF;
   padding-top: 1em;
   padding-bottom: 3em;
+  border-bottom: 1px solid #9193d0;
 }
 
 div.banner div.terminal-outer {
@@ -62,7 +67,7 @@ div.content.right {
 div.content .section-heading {
   padding-bottom: 0.3em;
   margin-bottom: 0.7em;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #f8f8df;
 }
 
 div.content div.about span {
